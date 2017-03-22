@@ -83,3 +83,4 @@ public/uploads
 
 # tilde files are usually backup files from a text editor
 *~
+.env

@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'carrierwave-aws'
 gem 'carrierwave'
 gem 'rails', '~> 5.0', '>= 5.0.2'
 gem 'puma', '~> 3.0'
@@ -9,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'byebug', platform: :mri
 end
 group :development do
